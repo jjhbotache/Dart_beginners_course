@@ -1,4 +1,5 @@
 //are like dictionaries in python
+
 void main(List<String> args) {
   /* Map family = {
     "dad": "alvaro",
@@ -24,3 +25,17 @@ void main(List<String> args) {
   family.putIfAbsent("brother", () => "alvaro junior"); //add a new key-value 
   print(family);
 }
+
+/* 
+// quizz
+import 'dart:io';
+void main(List<String> args) {
+  List students = ["juan", "jose", "alvaro", "eduardo", "laura", "victoria"];
+
+  stdout.write("the list of students is: $students \n\r");
+  stdout.write("Choose one: \n\r");
+  var y = stdin.readLineSync();
+  var x =int.parse(y!);
+  stdout.write("You chose: ${students[x]}");
+}
+ */
