@@ -1,4 +1,4 @@
-/* void main() {
+void main() {
   List people = ["Bryan", "Heather", "Chris"];
 
   // this is a for loop
@@ -11,11 +11,11 @@
     print(person);
   });
 }
- */
+
 
 // asnwer to the task
 
-void main(List<String> args) {
+/* void main(List<String> args) {
   for (var i = 0; i <= 10; i++) {
     print(i);
     if (i == 5) {
@@ -23,3 +23,4 @@ void main(List<String> args) {
     }
   }
 }
+ */
