@@ -1,0 +1,5 @@
+void main(List<String> args) {
+  int age;
+  int dogYears = 7;
+  //print(age * dogYears);//this gives an exception
+}
