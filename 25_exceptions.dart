@@ -1,5 +1,4 @@
 void main(List<String> args) {
-  int age;
-  int dogYears = 7;
+  print(5~/0);
   //print(age * dogYears);//this gives an exception
 }
